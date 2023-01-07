@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F26614229699E6A00CA5608 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F26614129699E6A00CA5608 /* AppDelegate.swift */; };
+		1F26614429699E6A00CA5608 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F26614329699E6A00CA5608 /* SceneDelegate.swift */; };
+		1F26614629699E6A00CA5608 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F26614529699E6A00CA5608 /* ViewController.swift */; };
+		1F26614929699E6A00CA5608 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F26614729699E6A00CA5608 /* Main.storyboard */; };
+		1F26614B29699E6D00CA5608 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F26614A29699E6D00CA5608 /* Assets.xcassets */; };
+		1F26614E29699E6D00CA5608 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F26614C29699E6D00CA5608 /* LaunchScreen.storyboard */; };
+		1F26615929699E6D00CA5608 /* Ulasimda_RahatlikTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F26615829699E6D00CA5608 /* Ulasimda_RahatlikTests.swift */; };
+		1F26616329699E6E00CA5608 /* Ulasimda_RahatlikUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F26616229699E6E00CA5608 /* Ulasimda_RahatlikUITests.swift */; };
+		1F26616529699E6E00CA5608 /* Ulasimda_RahatlikUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F26616429699E6E00CA5608 /* Ulasimda_RahatlikUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F26615529699E6D00CA5608 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F26613629699E6A00CA5608 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F26613D29699E6A00CA5608;
+			remoteInfo = "Ulasimda Rahatlik";
+		};
+		1F26615F29699E6E00CA5608 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F26613629699E6A00CA5608 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F26613D29699E6A00CA5608;
+			remoteInfo = "Ulasimda Rahatlik";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F26613E29699E6A00CA5608 /* Ulasimda Rahatlik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ulasimda Rahatlik.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F26614129699E6A00CA5608 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F26614329699E6A00CA5608 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1F26614529699E6A00CA5608 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F26614829699E6A00CA5608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F26614A29699E6D00CA5608 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F26614D29699E6D00CA5608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F26614F29699E6D00CA5608 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F26615429699E6D00CA5608 /* Ulasimda RahatlikTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ulasimda RahatlikTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F26615829699E6D00CA5608 /* Ulasimda_RahatlikTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ulasimda_RahatlikTests.swift; sourceTree = "<group>"; };
+		1F26615E29699E6E00CA5608 /* Ulasimda RahatlikUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ulasimda RahatlikUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F26616229699E6E00CA5608 /* Ulasimda_RahatlikUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ulasimda_RahatlikUITests.swift; sourceTree = "<group>"; };
+		1F26616429699E6E00CA5608 /* Ulasimda_RahatlikUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ulasimda_RahatlikUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F26613B29699E6A00CA5608 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F26615129699E6D00CA5608 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F26615B29699E6E00CA5608 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F26613529699E6A00CA5608 = {
+			isa = PBXGroup;
+			children = (
+				1F26614029699E6A00CA5608 /* Ulasimda Rahatlik */,
+				1F26615729699E6D00CA5608 /* Ulasimda RahatlikTests */,
+				1F26616129699E6E00CA5608 /* Ulasimda RahatlikUITests */,
+				1F26613F29699E6A00CA5608 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F26613F29699E6A00CA5608 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F26613E29699E6A00CA5608 /* Ulasimda Rahatlik.app */,
+				1F26615429699E6D00CA5608 /* Ulasimda RahatlikTests.xctest */,
+				1F26615E29699E6E00CA5608 /* Ulasimda RahatlikUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F26614029699E6A00CA5608 /* Ulasimda Rahatlik */ = {
+			isa = PBXGroup;
+			children = (
+				1F26614129699E6A00CA5608 /* AppDelegate.swift */,
+				1F26614329699E6A00CA5608 /* SceneDelegate.swift */,
+				1F26614529699E6A00CA5608 /* ViewController.swift */,
+				1F26614729699E6A00CA5608 /* Main.storyboard */,
+				1F26614A29699E6D00CA5608 /* Assets.xcassets */,
+				1F26614C29699E6D00CA5608 /* LaunchScreen.storyboard */,
+				1F26614F29699E6D00CA5608 /* Info.plist */,
+			);
+			path = "Ulasimda Rahatlik";
+			sourceTree = "<group>";
+		};
+		1F26615729699E6D00CA5608 /* Ulasimda RahatlikTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F26615829699E6D00CA5608 /* Ulasimda_RahatlikTests.swift */,
+			);
+			path = "Ulasimda RahatlikTests";
+			sourceTree = "<group>";
+		};
+		1F26616129699E6E00CA5608 /* Ulasimda RahatlikUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1F26616229699E6E00CA5608 /* Ulasimda_RahatlikUITests.swift */,
+				1F26616429699E6E00CA5608 /* Ulasimda_RahatlikUITestsLaunchTests.swift */,
+			);
+			path = "Ulasimda RahatlikUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F26613D29699E6A00CA5608 /* Ulasimda Rahatlik */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F26616829699E6E00CA5608 /* Build configuration list for PBXNativeTarget "Ulasimda Rahatlik" */;
+			buildPhases = (
+				1F26613A29699E6A00CA5608 /* Sources */,
+				1F26613B29699E6A00CA5608 /* Frameworks */,
+				1F26613C29699E6A00CA5608 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ulasimda Rahatlik";
+			productName = "Ulasimda Rahatlik";
+			productReference = 1F26613E29699E6A00CA5608 /* Ulasimda Rahatlik.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F26615329699E6D00CA5608 /* Ulasimda RahatlikTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F26616B29699E6E00CA5608 /* Build configuration list for PBXNativeTarget "Ulasimda RahatlikTests" */;
+			buildPhases = (
+				1F26615029699E6D00CA5608 /* Sources */,
+				1F26615129699E6D00CA5608 /* Frameworks */,
+				1F26615229699E6D00CA5608 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F26615629699E6D00CA5608 /* PBXTargetDependency */,
+			);
+			name = "Ulasimda RahatlikTests";
+			productName = "Ulasimda RahatlikTests";
+			productReference = 1F26615429699E6D00CA5608 /* Ulasimda RahatlikTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1F26615D29699E6E00CA5608 /* Ulasimda RahatlikUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F26616E29699E6E00CA5608 /* Build configuration list for PBXNativeTarget "Ulasimda RahatlikUITests" */;
+			buildPhases = (
+				1F26615A29699E6E00CA5608 /* Sources */,
+				1F26615B29699E6E00CA5608 /* Frameworks */,
+				1F26615C29699E6E00CA5608 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F26616029699E6E00CA5608 /* PBXTargetDependency */,
+			);
+			name = "Ulasimda RahatlikUITests";
+			productName = "Ulasimda RahatlikUITests";
+			productReference = 1F26615E29699E6E00CA5608 /* Ulasimda RahatlikUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F26613629699E6A00CA5608 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					1F26613D29699E6A00CA5608 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					1F26615329699E6D00CA5608 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 1F26613D29699E6A00CA5608;
+					};
+					1F26615D29699E6E00CA5608 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 1F26613D29699E6A00CA5608;
+					};
+				};
+			};
+			buildConfigurationList = 1F26613929699E6A00CA5608 /* Build configuration list for PBXProject "Ulasimda Rahatlik" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F26613529699E6A00CA5608;
+			productRefGroup = 1F26613F29699E6A00CA5608 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F26613D29699E6A00CA5608 /* Ulasimda Rahatlik */,
+				1F26615329699E6D00CA5608 /* Ulasimda RahatlikTests */,
+				1F26615D29699E6E00CA5608 /* Ulasimda RahatlikUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F26613C29699E6A00CA5608 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F26614E29699E6D00CA5608 /* LaunchScreen.storyboard in Resources */,
+				1F26614B29699E6D00CA5608 /* Assets.xcassets in Resources */,
+				1F26614929699E6A00CA5608 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F26615229699E6D00CA5608 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F26615C29699E6E00CA5608 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F26613A29699E6A00CA5608 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F26614629699E6A00CA5608 /* ViewController.swift in Sources */,
+				1F26614229699E6A00CA5608 /* AppDelegate.swift in Sources */,
+				1F26614429699E6A00CA5608 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F26615029699E6D00CA5608 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F26615929699E6D00CA5608 /* Ulasimda_RahatlikTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F26615A29699E6E00CA5608 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F26616529699E6E00CA5608 /* Ulasimda_RahatlikUITestsLaunchTests.swift in Sources */,
+				1F26616329699E6E00CA5608 /* Ulasimda_RahatlikUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F26615629699E6D00CA5608 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F26613D29699E6A00CA5608 /* Ulasimda Rahatlik */;
+			targetProxy = 1F26615529699E6D00CA5608 /* PBXContainerItemProxy */;
+		};
+		1F26616029699E6E00CA5608 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F26613D29699E6A00CA5608 /* Ulasimda Rahatlik */;
+			targetProxy = 1F26615F29699E6E00CA5608 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F26614729699E6A00CA5608 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F26614829699E6A00CA5608 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F26614C29699E6D00CA5608 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F26614D29699E6D00CA5608 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F26616629699E6E00CA5608 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1F26616729699E6E00CA5608 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F26616929699E6E00CA5608 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NV57XZ3KBV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ulasimda Rahatlik/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CanDuru.Ulasimda-Rahatlik";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F26616A29699E6E00CA5608 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NV57XZ3KBV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ulasimda Rahatlik/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CanDuru.Ulasimda-Rahatlik";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1F26616C29699E6E00CA5608 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NV57XZ3KBV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CanDuru.Ulasimda-RahatlikTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ulasimda Rahatlik.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ulasimda Rahatlik";
+			};
+			name = Debug;
+		};
+		1F26616D29699E6E00CA5608 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NV57XZ3KBV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CanDuru.Ulasimda-RahatlikTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ulasimda Rahatlik.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ulasimda Rahatlik";
+			};
+			name = Release;
+		};
+		1F26616F29699E6E00CA5608 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NV57XZ3KBV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CanDuru.Ulasimda-RahatlikUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ulasimda Rahatlik";
+			};
+			name = Debug;
+		};
+		1F26617029699E6E00CA5608 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NV57XZ3KBV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CanDuru.Ulasimda-RahatlikUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ulasimda Rahatlik";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F26613929699E6A00CA5608 /* Build configuration list for PBXProject "Ulasimda Rahatlik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F26616629699E6E00CA5608 /* Debug */,
+				1F26616729699E6E00CA5608 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F26616829699E6E00CA5608 /* Build configuration list for PBXNativeTarget "Ulasimda Rahatlik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F26616929699E6E00CA5608 /* Debug */,
+				1F26616A29699E6E00CA5608 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F26616B29699E6E00CA5608 /* Build configuration list for PBXNativeTarget "Ulasimda RahatlikTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F26616C29699E6E00CA5608 /* Debug */,
+				1F26616D29699E6E00CA5608 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F26616E29699E6E00CA5608 /* Build configuration list for PBXNativeTarget "Ulasimda RahatlikUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F26616F29699E6E00CA5608 /* Debug */,
+				1F26617029699E6E00CA5608 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F26613629699E6A00CA5608 /* Project object */;
+}
